@@ -1,0 +1,44 @@
+body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
+a {
+	/* Typography Declarations */
+	font-family: sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	color: #555555;
+}
+
+a:visited {
+	/* Typography Declarations */
+	color: #668866;
+}
+
+a:hover {
+	/* Tyopography Declarations */
+	color: #333333;
+  text-decoration: underline;
+}
+
+.top-nav {
+  padding: 1em 6em 0 0;
+  background-color: white;
+}
+.t-navigation > li {
+  display: inline-block;
+  margin-right: 3em;
+  font-size: .3em;
+}
+
+.main-section {
+  padding: 16em 0;
+  background-image: url('../images/first-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.top-nav{
+  text-align: right;
+}
