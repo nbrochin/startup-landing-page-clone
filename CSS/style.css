@@ -1,5 +1,6 @@
 body {
     background-color: LightGray;
+    font-family: 'Roboto', sans-serif;
 }
 div {
     border: 1px solid Chocolate;
@@ -38,8 +39,8 @@ a:hover {
 .t-logo > li {
   display: inline-block;
   text-align: left;
-  font-size: .3em;
   float:left;
+  margin-bottom: 2pm;
 }
 
 .main-section {
@@ -47,7 +48,17 @@ a:hover {
   background-image: url('../images/first-background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
 }
 .top-nav{
   text-align: right;
 }
+h1 {
+	color: white;
+	font-weight: 300;
+}
+h4{
+	color: white;
+	font-weight: 300;
+}
+
