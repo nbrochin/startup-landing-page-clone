@@ -28,6 +28,7 @@ a:hover {
 .top-nav {
   padding: .5em 11em 1em 0;
   background-color: white;
+  text-align: right;
 }
 
 .t-navigation > li {
@@ -40,25 +41,38 @@ a:hover {
   display: inline-block;
   text-align: left;
   float:left;
-  margin-bottom: 2pm;
+  margin-bottom: 2em;
+  margin-left: 12em;
 }
 
 .main-section {
-  padding: 16em 0;
+  padding: 14em 0;
   background-image: url('../images/first-background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
 }
-.top-nav{
-  text-align: right;
-}
+
 h1 {
 	color: white;
 	font-weight: 300;
+	font-size: 280%;
 }
 h4{
 	color: white;
 	font-weight: 300;
+	font-size: 140%;
 }
-
+.top-footer {
+	min-height: 8em;
+	background-color: white;
+	padding: 6em;
+	text-align: center;
+}
+.three-icons > li {
+  display: inline-flex;
+  margin-right: 3em;
+}
+.three-icons ul {
+  text-align: center;
+}
