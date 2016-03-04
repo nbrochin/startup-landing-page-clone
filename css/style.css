@@ -3,6 +3,10 @@ body {
     font-family: 'Roboto', sans-serif;
     margin:0;
 }
+
+ul {
+  margin:0;
+}
 /*div {
     border: 1px solid Chocolate;
 }
@@ -12,7 +16,7 @@ a {
 	font-family: sans-serif;
 	font-weight: normal;
 	text-decoration: none;
-	color: #777777;
+	color: #838994;
 	font-size: 16px;
 }
 
@@ -35,7 +39,7 @@ a:hover {
 }
 
 .top-nav-content {
-  padding: 0;
+  padding: 15px;
   background-color: white;
   position: fixed;
   border-bottom: 1px solid #ddd;
@@ -43,9 +47,10 @@ a:hover {
 }
 .t-navigation {
 	float:right;
-	margin-right: 18em;
+	margin-right: 22em;
 }
 .t-navigation > li {
+  color: #838994;
   display: inline-block;
   margin-right: 2em;
   font-size: .3em;
@@ -105,6 +110,7 @@ h5{
 	font-weight: 300;
 	font-size: 90%;
 	margin-left: 2em;
+  margin-top: 0;
 
 }
 
@@ -121,10 +127,37 @@ h5{
   text-align: center;
 }
 
-.social-icons > li {
-  display: inline-flex;
-  margin-right: .1em;
-  text-align: center;
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+
+.social .facebook {
+  color: #4c66a4;
+  padding-top: 8px;
+}
+
+.social .twitter {
+  color: #55acee;
+  padding-top: 8px;
+}
+
+.social .instagram {
+  color: #3f729b;
+  padding-top: 8px;
+}
+
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #cccccc;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 .three-icons-text > li {
