@@ -23,7 +23,7 @@ a:visited {
 
 a:hover {
 	/* Tyopography Declarations */
-	color: #887733;
+	color: #333333;
   	text-decoration: none;
 }
 
@@ -138,6 +138,12 @@ button {
     border-radius: 4px;
     padding: 1rem 1.5rem;
     font-size: 1.125rem;
+}
+
+button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
 }
 
 .button-holder {
