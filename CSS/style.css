@@ -31,6 +31,8 @@ a:hover {
   background-color: white;
   position: fixed;
   width: 100%;
+  border-bottom-color: #ccc;
+  z-index: 99999;
 }
 
 .top-nav-content {
