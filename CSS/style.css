@@ -1,18 +1,11 @@
 body {
    /* background-color: LightGray;*/
     font-family: 'Roboto', sans-serif;
-    -webkit-font-smoothing: antialiased;
 }
 /*div {
     border: 1px solid Chocolate;
 }
 */
-hr {
-    border: 0;
-    border-top: 1px solid #eaebec;
-    margin: 1.313rem 0;
-}
-
 a {
 	/* Typography Declarations */
 	font-family: sans-serif;
@@ -24,20 +17,21 @@ a {
 
 a:visited {
 	/* Typography Declarations */
-	color: #f15a29;
+	color: #668866;
 }
 
 a:hover {
 	/* Tyopography Declarations */
 	color: #333333;
   	text-decoration: none;
+  	font-weight: 600;
 }
 
 .top-nav-section {
   background-color: white;
   position: fixed;
   width: 100%;
-  z-index: 99999;
+  z-index: 9999;
 }
 
 .top-nav-content {
@@ -49,20 +43,25 @@ a:hover {
 }
 .t-navigation {
 	float:right;
-	margin-right: 15em;
+	margin-right: 18em;
 }
 .t-navigation > li {
   display: inline-block;
-  margin-right: 2.5em;
+  margin-right: 2em;
   font-size: .3em;
   vertical-align: middle;
+}
+
+.t-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
 }
 
 .logo {
   float:none;
   z-index: 000022;
   vertical-align: baseline;
-  padding-right: 28em;
+  padding-right: 32em;
 }
 
 .main-section {
@@ -78,7 +77,7 @@ h1 {
 	color: white;
 	font-weight: 300;
 	font-size: 280%;
-	letter-spacing: 1px;
+	letter-spacing: 1.5px;
 }
 
 h2 {
@@ -138,23 +137,19 @@ h5{
 }
 
 button {
-    width: 9.688rem;
+	width: 9.688rem;
     background-color: #f15a29;
     border-color: #f15a29;
     text-shadow: none;
-    color: white;
     border-style: none;
     border-radius: 4px;
     padding: 1rem 1.5rem;
+    color: white;
     font-size: 1.125rem;
 }
 
 button:hover {
     background-color: #d9400e;
-    border-color: #cf3d0e;
+    border-color: #cf3d0f;
     cursor: pointer;
-}
-
-.button-holder {
-	width: auto;
 }
