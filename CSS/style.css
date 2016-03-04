@@ -53,6 +53,7 @@ a:hover {
   float:none;
   z-index: 000022;
   vertical-align: baseline;
+  padding-right: 28em;
 }
 
 .main-section {
@@ -67,6 +68,7 @@ h1 {
 	color: white;
 	font-weight: 300;
 	font-size: 280%;
+	letter-spacing: 1.5px;
 }
 
 h2 {
@@ -126,9 +128,10 @@ h5{
 }
 
 .button {
-	width: 3em;
+	text-shadow: none;
+	border-style: none;
 	background-color:orange;
 	font: 14px roboto;
-	padding: .5em;
+	padding: 1rem;
 	border-color: orange;
 }
