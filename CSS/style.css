@@ -1,6 +1,7 @@
 body {
    /* background-color: LightGray;*/
     font-family: 'Roboto', sans-serif;
+    margin:0;
 }
 /*div {
     border: 1px solid Chocolate;
@@ -17,7 +18,7 @@ a {
 
 a:visited {
 	/* Typography Declarations */
-	color: #668866;
+	color: #f15a29;
 }
 
 a:hover {
@@ -67,6 +68,7 @@ a:hover {
 .main-section {
   padding: 14em 0;
   background-image: url('../images/first-background.jpg');
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
