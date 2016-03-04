@@ -31,7 +31,7 @@ a:hover {
   background-color: white;
   position: fixed;
   width: 100%;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #bbbbbb;
   z-index: 99999;
 }
 
