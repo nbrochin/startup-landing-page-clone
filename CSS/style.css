@@ -22,8 +22,9 @@ a:visited {
 
 a:hover {
 	/* Tyopography Declarations */
-	color: #887733;
+	color: #333333;
   	text-decoration: none;
+  	font-weight: 600;
 }
 
 .top-nav-section {
@@ -146,6 +147,6 @@ button {
 
 button:hover {
     background-color: #d9400e;
-    border-color: #cf3d0e;
+    border-color: #cf3d0f;
     cursor: pointer;
 }
