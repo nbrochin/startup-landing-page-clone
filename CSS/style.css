@@ -7,6 +7,12 @@ body {
     border: 1px solid Chocolate;
 }
 */
+hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+
 a {
 	/* Typography Declarations */
 	font-family: sans-serif;
