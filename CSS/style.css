@@ -17,14 +17,13 @@ a {
 
 a:visited {
 	/* Typography Declarations */
-	color: #668866;
+	color: #f15a29;
 }
 
 a:hover {
 	/* Tyopography Declarations */
 	color: #333333;
   	text-decoration: none;
-  	font-weight: 600;
 }
 
 .top-nav-section {
