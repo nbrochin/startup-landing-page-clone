@@ -31,7 +31,6 @@ a:hover {
   background-color: white;
   position: fixed;
   width: 100%;
-  border-bottom: 1px solid #ddd;
   z-index: 9999;
 }
 
@@ -39,6 +38,7 @@ a:hover {
   padding: 0;
   background-color: white;
   position: fixed;
+  border-bottom: 1px solid #ddd;
   width: 100%;
 }
 .t-navigation {
