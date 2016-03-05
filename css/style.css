@@ -2,10 +2,12 @@ body {
    /* background-color: LightGray;*/
     font-family: 'Roboto', sans-serif;
     margin:0;
+    line-height: 1;
 }
 
 ul {
   margin:0;
+  list-style: none;
 }
 /*div {
     border: 1px solid Chocolate;
@@ -29,6 +31,10 @@ a:hover {
 	/* Tyopography Declarations */
 	color: #333333;
   	text-decoration: none;
+}
+
+.content {
+  margin:0 auto;
 }
 
 .top-nav-section {
@@ -66,7 +72,7 @@ a:hover {
   float:none;
   z-index: 000022;
   vertical-align: baseline;
-  padding-right: 32em;
+  padding-right: 36.5em;
 }
 
 .main-section {
@@ -99,13 +105,13 @@ h3 {
 	margin-left: 1.4em;
 }
 
-h4{
+h4 {
 	color: white;
 	font-weight: 300;
 	font-size: 140%;
 }
 
-h5{
+h5 {
 	color: #888888;
 	font-weight: 300;
 	font-size: 90%;
@@ -114,24 +120,36 @@ h5{
 
 }
 
-.top-footer {
-	min-height: 8em;
-	background-color: white;
-	padding: 6em;
-	text-align: center;
+.benefits {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
 }
 
-.three-icons > li {
-  display: inline-flex;
-  margin-right: 9em;
-  text-align: center;
+.benefits .content {
+    margin-top: 7.875rem;
+    padding: none;
+    color: #1d1e21;
+    text-align: center;
+    width: 60%;
+}
+
+.benefits .content .three-benefits > li {
+  width: 33.333%;
+  float: left;
 }
 
 .social {
     background-color: #fff;
     overflow: auto;
-    padding-bottom: 9.375rem;
+    padding-bottom: 5rem;
     text-align: center;
+}
+
+.benefits hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
 }
 
 .social .facebook {
